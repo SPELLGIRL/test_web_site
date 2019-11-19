@@ -1,0 +1,30 @@
+{% extends 'mainapp/base.html' %}
+
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+    <title>{% trans 'Main' %}</title>
+{% endblock %}
+
+{% block css %}
+    {{ block.super }}
+    <style type="text/css">
+        pre {
+            background-color: #D8F0FF;
+            border: 1px solid #9BBBD5;
+            padding: 8px;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        {% include 'mainapp/include/filter.html' %}
+        {% include 'mainapp/include/single_table.html' %}
+        <div class="col-sm-10">
+            {{ result_table |safe }}
+        </div>
+    </div>
+{% endblock %}
+

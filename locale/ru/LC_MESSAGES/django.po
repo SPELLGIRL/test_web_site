@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 17:43+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\mainapp\models.py:6
+msgid "territory name"
+msgstr "название территории"
+
+#: .\mainapp\models.py:12
+msgid "territories"
+msgstr "территории"
+
+#: .\mainapp\models.py:16
+msgid "city name"
+msgstr "название города"
+
+#: .\mainapp\models.py:25
+msgid "cities"
+msgstr "города"
+
+#: .\mainapp\models.py:29
+msgid "office number"
+msgstr "номер офиса"
+
+#: .\mainapp\models.py:40
+msgid "group name"
+msgstr "название группы"
+
+#: .\mainapp\models.py:48
+msgid "indicator type"
+msgstr "тип индикатора"
+
+#: .\mainapp\tables.py:8
+msgid "Indicator"
+msgstr "Показатель"
+
+#: .\mainapp\tables.py:9
+msgid "Value"
+msgstr "Значение"
+
+#: .\mainapp\tables.py:10
+msgid "Month"
+msgstr "Месяц"
+
+#: .\mainapp\tables.py:11
+msgid "Office"
+msgstr "Офис"
+
+#: .\mainapp\tables.py:12
+msgid "Indicators group"
+msgstr "Группа показателей"
+
+#: .\mainapp\tables.py:13
+msgid "TO"
+msgstr "ТО"
+
+#: .\mainapp\tables.py:14
+msgid "City"
+msgstr "Город"
+
+#: .\templates\mainapp\indicator.html:9
+msgid "Main"
+msgstr "Главная"
+
+#: .\web_page\settings.py:127
+msgid "English"
+msgstr "Английский"
+
+#: .\web_page\settings.py:128
+msgid "Russian"
+msgstr "Русский"
